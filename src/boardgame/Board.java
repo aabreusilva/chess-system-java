@@ -3,11 +3,15 @@ package boardgame;
 public class Board {
     private int rows;
     private int columns;
+
+    //Criando uma matriz de peças
     private Piece[][] pieces;
 
     public Board(int rows, int columns) {
         this.rows = rows;
         this.columns = columns;
+
+        //Minha matriz de peças será instanciada com a quantidade de rows e columns.
         pieces = new Piece[rows][columns];
     }
 
