@@ -32,7 +32,7 @@ public class UI {
         }
         else {
 
-            System.out.println(piece);
+            System.out.print(piece);
 
         }
         //Imprimindo um espaço em branco para que as peças não fiquem grudadas umas nas outras.

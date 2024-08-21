@@ -29,3 +29,13 @@ Chess layer and printing the board:
 2 - - - - - - - - <br>
 1 - - - - - - - - <br>
 
+Placing pieces on the board
+
+Checklist:
+ - Method: Board.PlacePiece(piece, position)
+ - Classes: Rook, King[public]
+ - Method: ChessMatch.InitialSetup
+ - OOP Topics:
+   - Inheritance
+   - Overriding
+   - Polymorphism (ToString)
