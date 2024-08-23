@@ -39,3 +39,23 @@ Checklist:
    - Inheritance
    - Overriding
    - Polymorphism (ToString)
+
+
+BoardException and defensive programming
+
+Checklist:
+   - Class BoardException[public]
+   - Methods: Board, PositionExists, Board.ThereIsAPiece
+   - Implement defensive programming in Boards methods
+   - OOP Topics:
+     - Exceptions
+     - Constructors (a string must be informed to the exception)
+
+ChessException and ChessPosition
+
+Checklist:
+ - Class ChessException:[public]
+ - Class ChessPosition[public]
+ - Refactor ChessMatch.InitialSetup
+ - OOP Topics:
+   - 
