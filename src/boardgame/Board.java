@@ -37,7 +37,7 @@ public class Board {
         //Programação defensiva
         //Na hora de acessar uma peça que está em uma dada linha e uma coluna.
         //Se essa posição não existir, então lançar uma nova BoardException.
-        if (positionExistis(row, column)) {
+        if (!positionExistis(row, column)) {
             throw new BoardException("Essa posição não está no tabuleiro.");
         }
 
@@ -47,7 +47,7 @@ public class Board {
     //Sobrecarga do mesmo método recebendo position (retornando a peça pela posição)
     public Piece piece(Position position) {
 
-        if (positionExistis(position)) {
+        if (!positionExistis(position)) {
             throw new BoardException("Essa posição não está no tabuleiro.");
         }
 
