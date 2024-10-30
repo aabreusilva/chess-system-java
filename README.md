@@ -58,4 +58,9 @@ Checklist:
  - Class ChessPosition[public]
  - Refactor ChessMatch.InitialSetup
  - OOP Topics:
-   - 
+   - Exceptions
+   - Encapsulation
+   - Constructors (a string must be informed to the exception)
+   - Overriding
+   - Static members
+   - Layers pattern
